@@ -55,9 +55,7 @@ curl --location --request PUT 'https://localhost:9200/_transform/suspicious_logi
                                     "event.payloadData.authStepSuccess": true
                                 }
                             }
-                        ],
-                        "must_not": [],
-                        "should": []
+                        ]
                     }
                 }
             },
